@@ -292,6 +292,7 @@ var UTF8 = function() {
 var Module = function() {
   this.APIKey = false;
   this.SecretKey = false;
+  this.region = false;
   this.AWSBucketName = false;
   this.GSM = ' -0700';
   this.fileName = false;
